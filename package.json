@@ -1,0 +1,31 @@
+{
+	"name": "puppetter",
+	"version": "1.0.0",
+	"description": "Automated software testing with Puppeteer",
+	"main": "index.js",
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/michaeltheo/PuppeteerTuttorial.git"
+	},
+	"keywords": [
+		"Puppeteer",
+		"Mocha",
+		"Chai",
+		"Automation"
+	],
+	"author": "FreeMike",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/michaeltheo/PuppeteerTuttorial/issues"
+	},
+	"homepage": "https://github.com/michaeltheo/PuppeteerTuttorial#readme",
+	"dependencies": {
+		"chai": "^4.3.4",
+		"mocha": "^9.0.3",
+		"prettier": "^2.3.2",
+		"puppeteer": "^10.2.0"
+	}
+}
